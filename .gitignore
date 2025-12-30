@@ -1,0 +1,84 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Frontend build
+frontend/build/
+frontend/.cache/
+
+# Backend uploads and cache
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/__pycache__/
+backend/routers/__pycache__/
+backend/utils/__pycache__/
+backend/models/__pycache__/
+
+# YOLO models (large files)
+*.pt
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Local development
+*.local
