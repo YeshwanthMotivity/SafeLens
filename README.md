@@ -273,7 +273,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Author
 
-**Yeshwanth**
+**Yeshwanth Goud** - [MotivityLabs](https://motivitylabs.com)
 
 ---
 
