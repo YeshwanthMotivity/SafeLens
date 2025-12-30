@@ -1,4 +1,4 @@
-# SafeLens AI 🔐
+# SafeLens AI 
 
 **Privacy-Preserving Prompt Assistant with Intelligent PII Masking**
 
@@ -11,7 +11,7 @@ SafeLens is an advanced AI-powered system that automatically detects and masks s
 
 ---
 
-## 🌟 Features
+## Features
 
 ### 🛡️ Privacy Protection
 - **Named Entity Recognition (NER)**: Detects and masks personal names, addresses, phone numbers, emails, company names, and more
@@ -35,36 +35,36 @@ SafeLens is an advanced AI-powered system that automatically detects and masks s
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                        SafeLens AI                              │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
-│  ┌──────────┐     ┌──────────────┐     ┌──────────────────┐    │
-│  │  React   │────▶│   FastAPI    │────▶│   NER Detector   │    │
-│  │ Frontend │     │   Backend    │     │  (spaCy + Rules) │    │
-│  └──────────┘     └──────────────┘     └──────────────────┘    │
+│  ┌──────────┐     ┌──────────────┐     ┌──────────────────┐     |
+│  │  React   │────▶│   FastAPI    │────▶│   NER Detector  │     │
+│  │ Frontend │     │   Backend    │     │  (spaCy + Rules) │     │
+│  └──────────┘     └──────────────┘     └──────────────────┘     │
 │                           │                     │               │
 │                           ▼                     ▼               │
-│                   ┌──────────────┐     ┌──────────────────┐    │
-│                   │   Prompt     │     │  Public Figure   │    │
-│                   │  Optimizer   │     │    Detector      │    │
-│                   └──────────────┘     │ (TextRazor/Wiki) │    │
-│                           │            └──────────────────┘    │
+│                   ┌──────────────┐     ┌──────────────────┐     │
+│                   │   Prompt     │     │  Public Figure   │     │
+│                   │  Optimizer   │     │    Detector      │     │
+│                   └──────────────┘     │ (TextRazor/Wiki) │     │
+│                           │            └──────────────────┘     │
 │                           ▼                                     │
-│                   ┌──────────────┐     ┌──────────────────┐    │
+│                   ┌──────────────┐     ┌──────────────────┐     │
 │                   │    Groq      │────▶│     Gemini       │    │
-│                   │  Enhancer    │     │   (Response)     │    │
-│                   └──────────────┘     └──────────────────┘    │
+│                   │  Enhancer    │     │   (Response)     │     │
+│                   └──────────────┘     └──────────────────┘     │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 safelens/
@@ -190,7 +190,7 @@ file: <image_file>
 
 ---
 
-## 🔐 Entity Types Detected
+## Entity Types Detected
 
 | Entity Type | Mask Placeholder | Examples |
 |-------------|------------------|----------|
@@ -204,7 +204,7 @@ file: <image_file>
 
 ---
 
-## 🎯 Intent Detection & Techniques
+## Intent Detection & Techniques
 
 | Intent | Prompting Technique |
 |--------|---------------------|
@@ -219,7 +219,7 @@ file: <image_file>
 
 ---
 
-## ⚙️ Environment Variables
+## Environment Variables
 
 Create a `.env` file in the `backend/` directory:
 
@@ -231,7 +231,7 @@ TEXTRAZOR_API_KEY=your_textrazor_api_key
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Backend
 - **FastAPI** - Modern Python web framework
@@ -250,7 +250,7 @@ TEXTRAZOR_API_KEY=your_textrazor_api_key
 
 ---
 
-## 📊 Processing Pipeline
+## Processing Pipeline
 
 1. **Input Received** → User submits text or image
 2. **OCR (images only)** → Extract text from image
@@ -265,25 +265,19 @@ TEXTRAZOR_API_KEY=your_textrazor_api_key
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-## 👨‍💻 Author
+## Author
 
 **Yeshwanth**
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Google Gemini for LLM capabilities
 - Groq for prompt optimization
